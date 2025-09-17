@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя первая веб-страница</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        nav {
+            background: #e8491d;
+            color: #ffffff;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        
+        .main {
+            padding: 20px;
+            background: #ffffff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        
+        .button {
+            display: inline-block;
+            background: #e8491d;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .button:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Добро пожаловать на мой сайт</h1>
+            <p>Простая HTML-страница для примера</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="main">
+            <h2>Привет, мир!</h2>
+            <p>Это простая HTML-страница с базовой структурой и CSS-стилями. Вы можете использовать её как основу для своего сайта.</p>
+            
+            <h3>Что здесь есть?</h3>
+            <ul>
+                <li>Шапка сайта с заголовком</li>
+                <li>Навигационное меню</li>
+                <li>Основная область контента</li>
+                <li>Подвал сайта</li>
+                <li>Адаптивный дизайн</li>
+            </ul>
+            
+            <a href="#" class="button">Узнать больше</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Моя первая веб-страница. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
